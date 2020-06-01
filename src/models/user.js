@@ -27,9 +27,7 @@ const userSchema = new mongoose.Schema({
         required: true,
         trim: true
     },
-    age: {
-        type: Number
-    },
+
     token: {
             type: String
         }
