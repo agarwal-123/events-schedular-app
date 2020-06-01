@@ -17,4 +17,5 @@ The token is given to user when loggen in and on registration time.
 
 ### Database Models:
 users,tasks</br>
-tasks table contains description ,userID(Foriegn key),compelete ,status. 
+users table contains userID,name,email,password,token alloted
+tasks table contains description ,userID(Foriegn key),compelete status. 
