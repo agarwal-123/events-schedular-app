@@ -16,6 +16,8 @@ app.all('*', function(req, res, next) {
      next();
 });
 
+var cors = require('cors')
+app.use(cors())
 
 app.use(express.json())
 app.use(userRouter)
